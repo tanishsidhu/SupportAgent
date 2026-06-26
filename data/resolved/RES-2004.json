@@ -1,0 +1,6 @@
+{
+  "id": "RES-2004",
+  "question": "How should partners authenticate for read-only lease polling?",
+  "accepted_answer": "Use OAuth client credentials with scopes leases:read and events:read. Machine tokens rotate every 90 days; set a calendar reminder — the portal does not email reminders for partner apps.",
+  "linked_docs": ["CONF-1001"]
+}

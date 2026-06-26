@@ -1,0 +1,6 @@
+{
+  "id": "RES-2009",
+  "question": "Customer asks why CS-5000 appears intermittently on GET /v1/leases.",
+  "accepted_answer": "CS-5000 during list calls often indicates a downstream search index lag, not data loss. Retry with backoff for up to 3 minutes. If it persists, open a support ticket with request_id from the response body.",
+  "linked_docs": ["CONF-1008"]
+}

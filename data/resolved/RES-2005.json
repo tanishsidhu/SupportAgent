@@ -1,0 +1,6 @@
+{
+  "id": "RES-2005",
+  "question": "Minimum OAuth scopes for read-only lease access?",
+  "accepted_answer": "Grant leases:read only. events:read is optional unless you consume webhooks. Never grant leases:write for reporting integrations.",
+  "linked_docs": ["CONF-1001"]
+}

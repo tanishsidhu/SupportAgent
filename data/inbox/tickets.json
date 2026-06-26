@@ -1,0 +1,52 @@
+[
+  {
+    "id": "T-1001",
+    "subject": "Idempotency header name",
+    "body": "What HTTP header should I send to make a lease creation request idempotent?"
+  },
+  {
+    "id": "T-1002",
+    "subject": "Production rate limit",
+    "body": "What is the per-minute request cap for production API keys?"
+  },
+  {
+    "id": "T-1003",
+    "subject": "Duplicate webhook deliveries",
+    "body": "We are seeing duplicate lease.approved webhooks for the same lease within a few minutes. Is that expected behavior?"
+  },
+  {
+    "id": "T-1004",
+    "subject": "Fleet lease monthly payment",
+    "body": "How do I calculate the monthly payment for a fleet lease using the API?"
+  },
+  {
+    "id": "T-1005",
+    "subject": "Idempotency TTL for batch imports",
+    "body": "How long are idempotency keys valid for batch lease import jobs?"
+  },
+  {
+    "id": "T-1006",
+    "subject": "Schedule API crash on zero term",
+    "body": "The payment schedule endpoint crashes with HTTP 500 when term_months is 0. This happens every time and blocks our QA suite."
+  },
+  {
+    "id": "T-1007",
+    "subject": "Sandbox webhooks not arriving",
+    "body": "Why is my sandbox webhook URL never receiving events even though I configured it correctly?"
+  },
+  {
+    "id": "T-1008",
+    "subject": "Bulk CSV import feature",
+    "body": "Please add support for bulk CSV import of leases. Our ops team uploads 500 rows nightly."
+  },
+  {
+    "id": "T-1009",
+    "subject": "Wrong residual on specific lease",
+    "body": "Lease LE-44291 shows residual $12,400 on the dashboard but $9,100 on the PDF export for invoice INV-99201. Which number is correct?"
+  },
+  {
+    "id": "T-1010",
+    "subject": "Read-only OAuth scopes",
+    "body": "What OAuth scopes are required for a read-only integration that only polls lease status?"
+  }
+]

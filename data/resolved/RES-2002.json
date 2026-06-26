@@ -1,0 +1,6 @@
+{
+  "id": "RES-2002",
+  "question": "What happens when a valuation expires before funding?",
+  "accepted_answer": "Funding blocks until a fresh valuation is requested. Re-run POST /v1/valuations and attach the new valuation_id to the lease before resubmitting for funding approval.",
+  "linked_docs": ["CONF-1006"]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "RES-2006",
+  "question": "Fleet lease payment schedule shows different monthly amount than standard lease with same inputs.",
+  "accepted_answer": "Fleet schedules use 30/360 day-count and may include a fleet admin fee line item configured on the tenant profile. Standard actuarial docs do not list the fee — check tenant settings or ask your account manager for the fleet fee flag.",
+  "linked_docs": ["CONF-1004"]
+}

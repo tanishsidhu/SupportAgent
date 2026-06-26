@@ -1,0 +1,6 @@
+{
+  "id": "RES-2008",
+  "question": "Idempotency key window for batch lease imports?",
+  "accepted_answer": "Batch import endpoints honor idempotency keys for **48 hours**, longer than single-lease mutations, because imports are reconciled asynchronously overnight.",
+  "linked_docs": ["CONF-1009"]
+}

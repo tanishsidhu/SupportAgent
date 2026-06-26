@@ -1,0 +1,6 @@
+{
+  "id": "RES-2010",
+  "question": "Can we increase page_size above 100 for nightly reconciliation jobs?",
+  "accepted_answer": "No. Hard cap is 100. For large reconciliations, page with cursor from next_page and run parallel workers per partition key — do not request oversized pages.",
+  "linked_docs": ["CONF-1010"]
+}

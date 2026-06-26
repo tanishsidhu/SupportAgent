@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+.DS_Store
+data/review_queue/
+data/traces/
+data/amendments.log
+data/LOOP_STATE.json

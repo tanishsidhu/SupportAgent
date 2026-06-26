@@ -1,0 +1,6 @@
+{
+  "id": "RES-2001",
+  "question": "Can we use the same API key across sandbox and production?",
+  "accepted_answer": "No. Keys are environment-scoped. Generate separate keys in each portal environment and store them in distinct secret slots in your deployment pipeline.",
+  "linked_docs": ["CONF-1007"]
+}

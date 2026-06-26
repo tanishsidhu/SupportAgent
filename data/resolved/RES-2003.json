@@ -1,0 +1,6 @@
+{
+  "id": "RES-2003",
+  "question": "We receive duplicate webhook deliveries for the same lease.approved event. Is that normal?",
+  "accepted_answer": "CapStream guarantees at-least-once delivery. During platform failovers you may see duplicates within a 5-minute window. Deduplicate on event_id in your handler — do not rely on single delivery.",
+  "linked_docs": ["CONF-1005"]
+}

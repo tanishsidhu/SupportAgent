@@ -1,0 +1,6 @@
+{
+  "id": "RES-2007",
+  "question": "How do I calculate monthly payments for a fleet lease?",
+  "accepted_answer": "Call POST /v1/schedules/calculate with asset_type fleet. Confirm 30/360 is enabled on your tenant (fleet profile). If amounts still differ from expectations, verify whether the fleet admin fee is active — that adjustment is not returned in the public doc examples.",
+  "linked_docs": ["CONF-1004", "RES-2006"]
+}

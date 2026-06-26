@@ -2,6 +2,8 @@
 
 SupportAgent is a small autonomous agent that drafts answers to incoming support tickets. I built it in C# on top of DeepSeek. It reads simulated Jira tickets, searches a local Confluence style knowledge base and a pile of previously resolved tickets, writes a grounded answer with citations, checks its own work, and then puts the draft in a queue for a human to approve.
 
+![SupportAgent monitor demo](assets/demo.gif)
+
 The one rule that shaped the whole design: the agent never talks to a customer. There is no "post" tool anywhere in the codebase, a gate blocks any action that is not on the allowlist, and the only thing the agent can actually write is a draft marked `pending_review`. A person decides what goes out.
 
 This is a portfolio and learning project. It runs locally with synthetic data and is not meant to be hosted.
